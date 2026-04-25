@@ -12,7 +12,7 @@ Passionate full-stack developer and tech enthusiast dedicated to building innova
 - 🚀 Enthusiastic about clean code, scalability, and best practices
 - 📚 Continuous learner exploring emerging technologies
 - 🤝 Open to collaboration and community contributions
-- 🌍 Based in [Your Location]
+- 🌍 Based in Tunisia
 
 ---
 
