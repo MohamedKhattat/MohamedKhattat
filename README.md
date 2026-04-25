@@ -1,41 +1,43 @@
 # Mohamed Habib Khattat
 
-**Full Stack Senior — Java / Spring Boot / Angular**  
-Systemes critiques · Fintech · Banque mondiale · Conformite fiscale  
-Tunis, Tunisie — Remote / Relocation France
+**Senior Full Stack Developer — Java / Spring Boot / Angular**  
+Critical Systems · Fintech · World Bank · Fiscal Compliance  
+Tunis, Tunisia — Remote / Relocation France
 
 ---
 
-## Ce que j'ai livre
+## What I Have Delivered
 
-Pas de projets fictifs. Voici ce qui tourne en production.
+No placeholder projects. Everything below runs in production.
 
-**ODS Temenos Exchange** — certifiee et deployee dans 3 000+ banques mondiales  
-Probleme resolu : distribuer les volumes COB de Temenos T24 generes a minuit 
-vers DW, HR, Audit — livraison garantie avant 08h00, zero tolerance.  
-Stack : Java · Spring Boot · Celery · Grafana · Redis · gRPC · Oracle  
-> Featured sur temenos.com — github.com/MuhamedHabib
+**ODS — Temenos Exchange Certified**  
+Deployed across 3,000+ banks worldwide. Featured on temenos.com.  
+The challenge: distribute massive COB volumes generated at midnight  
+across DW, HR, Audit systems — guaranteed delivery before 08:00.  
+Zero tolerance. Zero failures.  
+`Java · Spring Boot · Celery · Grafana · Redis · gRPC · Oracle · Linux`
 
-**PMIS Madagascar** — plateforme gouvernementale, Banque mondiale  
-Full stack de bout en bout : Java 21 · Spring Boot 3 · Angular 17 · 
-Spring Batch · GitLab CI/CD · Docker · SSO/LDAP · Metabase  
-Ministere de l'Energie Madagascar — financement Banque mondiale.
+**PMIS Madagascar — World Bank Platform**  
+Full stack government platform — Ministry of Energy Madagascar.  
+End-to-end delivery: Java 21 · Spring Boot 3 · Angular 17 ·  
+Spring Batch · GitLab CI/CD · Docker · SSO/LDAP · Grafana · Metabase.
 
-**Caisse Fiscale NACEF/CIMF** — 5 000+ stations, zero defaillance  
-Homologation Ministere des Finances tunisien · XAdES/PKCS#11 · 
-audit trail tamper-proof · deploiement telecontrole Agent/Client.
+**Fiscal POS — NACEF/CIMF Certified · 5,000+ Stations**  
+Homologated by the Tunisian Ministry of Finance.  
+XAdES/PKCS#11 · tamper-proof audit trail · remote Agent/Client deployment.  
+Zero critical failure across the entire production period.
 
-**DynPOS Hub** *(en cours — avec Wajdi)*  
-Hub POS intelligent : Spring Boot · Angular · Redis · Docker · 
+**DynPOS Hub** *(active)*  
+Smart POS ecosystem — Spring Boot · Angular · Redis · Docker ·  
 GitLab CI/CD · El Fatoura / TTNHub integration.
 
-**Fatoora Hub** *(en cours — avec Wajdi)*  
-Integration complete El Fatoura : draft → sign → submit → accept  
+**Fatoora Hub** *(active)*  
+Full El Fatoura integration pipeline: draft → sign → submit → accept.  
 XAdES · TunTrust · PKCS#11 · Spring Boot 3.
 
 ---
 
-## Stack reelle — ce que j'utilise en production
+## Production Stack
 
 ### Backend
 ![Java](https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -66,28 +68,32 @@ XAdES · TunTrust · PKCS#11 · Spring Boot 3.
 
 ## GitHub Stats
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MohamedKhattat&show_icons=true&theme=dark&hide_border=true)](https://github.com/MohamedKhattat)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MohamedKhattat&show_icons=true&theme=dark&hide_border=true&count_private=true)](https://github.com/MohamedKhattat)
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MohamedKhattat&layout=compact&theme=dark&hide_border=true)](https://github.com/MohamedKhattat)
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MohamedKhattat&theme=github-compact&hide_border=true)](https://github.com/MohamedKhattat)
 
 ---
 
 ## Open Source
 
 **GSoC 2026 — Accord Project (Linux Foundation)**  
-Contribution active : Agentic Workflow + LLM-Based Template Logic Executor  
-Rebase en cours sur la migration TypeScript du projet.  
-github.com/MuhamedHabib — +5 000 commits · 800+ followers · Pull Shark x3
+Active contribution: Agentic Workflow + LLM-Based Template Logic Executor.  
+Currently rebasing on the TypeScript migration — active review in progress.
+
+**github.com/MuhamedHabib** — 5,000+ commits · 800+ followers · Pull Shark x3  
+**github.com/MohamedKhattat** — 482 followers · active contributions
 
 ---
 
-## Ce que j'apporte
+## What I Bring
 
-J'ai travaille avant l'IA et avec l'IA.  
-Cette double lecture me donne une vitesse et une profondeur  
-que je mets directement au service de l'equipe autour de moi.  
-Je n'arrive pas seul a une mission.  
-J'arrive avec une capacite d'amplification.
+I worked before AI. And with AI.  
+That dual perspective gives me a speed and a depth  
+I put directly at the service of the team around me.  
+I do not arrive alone at a mission.  
+I arrive with an amplification capability.
 
 ---
 
@@ -95,5 +101,6 @@ J'arrive avec une capacite d'amplification.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohamed-habib-khattat-2b206a173)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohamedhabib.khattat@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MuhamedHabib)
 
-**Disponible : Remote / Relocation France**
+**Available: Remote / Relocation France**
