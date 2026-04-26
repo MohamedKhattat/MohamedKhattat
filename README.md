@@ -20,7 +20,7 @@ Zero tolerance. Zero failures.
 **PMIS Madagascar — World Bank Platform**  
 Full stack government platform — Ministry of Energy Madagascar.  
 End-to-end delivery: Java 21 · Spring Boot 3 · Angular 17 ·  
-Spring Batch · GitLab CI/CD · Docker · SSO/LDAP · Grafana · Metabase.
+Spring Batch · CI/CD · Docker · SSO/LDAP · Grafana · Metabase.
 
 **Fiscal POS — NACEF/CIMF Certified · 5,000+ Stations**  
 Homologated by the Tunisian Ministry of Finance.  
