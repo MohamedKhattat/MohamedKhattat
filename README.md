@@ -40,7 +40,7 @@ Full El Fatoura integration pipeline: draft → sign → submit → accept.
 **✦ MCP Orchestration Research** *(active)*  
 Multi-agent pipelines where LLMs operate inside governed semantic worlds.  
 Domain knowledge encapsulated via OWL ontologies + SWRL rules + RDF4J indexed libraries.  
-`Claude AI · MCP · LLMOps · RAG · SPARQL · Smart Legal Contracts · Web 3.0`
+`Claude AI · MCP · LLMOps · KAG · SPARQL · Smart Legal Contracts · Web 3.0`
 
 ---
 
@@ -79,7 +79,7 @@ Domain knowledge encapsulated via OWL ontologies + SWRL rules + RDF4J indexed li
 ![LLMOps](https://img.shields.io/badge/LLMOps-6B21A8?style=for-the-badge&logoColor=white)
 ![OWL](https://img.shields.io/badge/OWL_Ontologies-0D9488?style=for-the-badge&logoColor=white)
 ![SPARQL](https://img.shields.io/badge/SPARQL-1D4ED8?style=for-the-badge&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-059669?style=for-the-badge&logoColor=white)
+![KAG](https://img.shields.io/badge/KAG-059669?style=for-the-badge&logoColor=white)
 
 ---
 
