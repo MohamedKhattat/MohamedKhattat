@@ -1,3 +1,21 @@
+<h1 align="center">Mohamed Habib Khattat</h1>
+
+<p align="center">
+  <b>Software &amp; AI Engineer</b> — production fiscal-tech, compliance systems &amp; agentic AI
+</p>
+
+<p align="center">
+  Java · Spring Boot · Angular · .NET · Python · LLM &amp; Agentic Orchestration · Semantic Web
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/mohamed-habib-khattat-2b206a173"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:mohamedhabib.khattat@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=MohamedKhattat&style=for-the-badge&color=0077B5" alt="Profile views"/>
+</p>
+
+---
+
 ## 📌 What I Have Delivered
 
 No placeholder projects. Everything below runs in production.
