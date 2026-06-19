@@ -20,7 +20,7 @@
 
 ## 🧭 Where I Stand
 
-As a **Principal Engineer** working across **core banking (Temenos T24)** and **World Bank & central-bank programs**, I sit where **data science meets enterprise architecture**. I don't just train models — I architect the **governed systems** that put them into production *where failure is not an option*. Years shipping **fiscal & banking infrastructure** — software audited by ministries and trusted by **3,000+ banks** — taught me what "production-grade" actually costs. I bring that same discipline to AI: **observability, idempotency, durability, and governance**, applied to LLMs and semantic reasoning.
+As a **Principal Engineer** working across **core banking (Temenos T24)** and **World Bank & central-bank programs**, I sit where **data science meets enterprise architecture**. I don't just train models — I architect the **governed systems** that put them into production *where failure is not an option*. Years shipping **fiscal & banking infrastructure** — a fiscal POS certified by the Ministry of Finance across **5,000+ stations**, and an ODS **certified on Temenos Exchange** — taught me what "production-grade" actually costs. I bring that same discipline to AI: **observability, idempotency, durability, and governance**, applied to LLMs and semantic reasoning.
 
 > **My edge:** most people can train a model *or* ship a system. I do both — and I make the model *behave* inside the system.
 
@@ -59,19 +59,20 @@ flowchart LR
 
 ---
 
-## 🏆 Flagship — ODS · Temenos-Certified Distribution (3,000+ Banks)
+## 🏆 Flagship — ODS on Temenos Exchange (T24 Core Banking)
 
-> The system I'm proudest of is one most people will never see — because it simply **never fails**.
+> A reactive **Operational Data Store** for **Temenos T24** core banking — **certified and published on Temenos Exchange** (the marketplace of **3,000+ member banks**) and **adopted by 3+ banks** (ATB, Baraka Bank, BH). *@ UniQ Soft Technology.*
 
-**Scale & status.** A **Temenos Exchange–certified** Operational Data Store, deployed across **3,000+ banks worldwide** and featured on temenos.com. Production-hardened; zero critical failures across its production life.
+**What it is.** A signals-based, low-latency ODS that models the **data-warehouse architecture** (COB export via `T24 DW.Export`) and drives a compliance-grade **account-reconciliation workflow engine** with a full audit trail.
 
-**The problem.** Every bank generates massive **Close-of-Business (COB)** volumes at midnight. They must fan out — reconciled and complete — to **Data-Warehouse, HR, and Audit** systems with **guaranteed delivery before 08:00**. The window is fixed; the tolerance is zero.
+**More than a data store** — what I built around it:
+- **Semantic AI layer** — OWL ontologies (PMBOK · ISO 31000 / 27000 · IFRS · FRM) + SWRL inference + RDF4J/SPARQL agents reasoning over live banking data.
+- **Offshore Risk KPIs for Warba Bank (Kuwait)** — Market / Liquidity / Cost risk via SSIS ETL from T24 FRM → SSRS, with **zero COB breach**.
+- **End-to-end MLOps (CRISP-DM)** — predictive & classification models on internal banking data, served via **PMML**.
 
-**Why it's hard** ⚙️ A fixed overnight window, massive volume, **zero tolerance** — in banking a missed or duplicated batch is a *compliance event*, not an inconvenience. The data has to arrive **reconciled, complete, and on time**, every single night.
+**Why it matters.** Core-banking data is unforgiving — a COB breach is a *regulatory event*, not a bug. This shipped **certified on Temenos Exchange**, with zero COB breach.
 
-**What it represents.** Zero-failure reliability engineering at financial-sector scale — the discipline I carry into every AI system I build.
-
-`Java` · `Spring Boot` · `Redis` · `gRPC` · `Oracle` · `Grafana` · `Linux` &nbsp;|&nbsp; 🔒 *Proprietary production system — described faithfully, at a non-disclosing altitude (no internal design disclosed).*
+`Temenos T24` · `Java / JEE` · `Django` · `RDF4J · OWL · SWRL · SPARQL` · `SSIS / SSRS` · `Oracle PL/SQL` · `Kafka · Redis · gRPC` · `Spark / Scala` &nbsp;|&nbsp; 🔒 *Described faithfully from the record.*
 
 ---
 
@@ -94,7 +95,8 @@ Hands-on, end-to-end — from raw signal to served decision:
 
 | Project | What it is | Stack |
 |---|---|---|
-| **ODS** — *Temenos Exchange Certified* | Distributes massive midnight COB volumes across DW / HR / Audit systems for **3,000+ banks** — guaranteed delivery before 08:00, zero failures. Featured on temenos.com. | `Java` · `Spring Boot` · `Redis` · `gRPC` · `Oracle` |
+| **ODS** — *Temenos Exchange (T24)* | Reactive Operational Data Store **certified & published on Temenos Exchange** (3,000+ member banks); **adopted by 3+ banks** (ATB, Baraka, BH). T24 DW.Export + reconciliation engine + semantic AI layer. | `Temenos T24` · `Java` · `RDF4J/OWL` · `Oracle` |
+| **T24 Risk KPIs** — *Warba Bank (Kuwait)* | Market / Liquidity / Cost risk KPIs via SSIS ETL from T24 FRM → SSRS — zero COB breach. | `Temenos T24 FRM` · `SSIS` · `SSRS` |
 | **PMIS Madagascar** — *World Bank* | Full-stack government platform, Ministry of Energy & Hydrocarbons — conception → production. | `Java 21` · `Spring Boot 3` · `Angular 17` · `Spring Batch` · `Docker` |
 | **Fiscal POS** — *Ministry-Homologated* | Cash-register system certified by the Ministry of Finance, **5,000+ stations**, tamper-proof audit trail, zero critical failure. | `XAdES` · `PKCS#11` · `Remote Agent/Client` |
 | **Fatoora Hub** *(active)* | End-to-end El&nbsp;Fatoura e-invoicing: draft → sign → submit → accept. | `XAdES` · `TunTrust` · `Spring Boot 3` |
