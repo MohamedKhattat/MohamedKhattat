@@ -20,7 +20,7 @@
 ## 🧭 About
 
 - 🏦 I build **systems that cannot fail** — COB distribution across **3,000+ banks**, fiscal cash registers **homologated by the Tunisian Ministry of Finance** (**5,000+ stations**), and El&nbsp;Fatoura e-invoicing signed end-to-end.
-- 🤖 I pair production engineering with **applied AI** — agentic LLM pipelines, OWL/SWRL semantic reasoning, and **Knowledge-Augmented Generation (KAG)** over governed ontologies.
+- I pair production engineering with **applied AI** — agentic LLM pipelines, OWL/SWRL semantic reasoning, and **Knowledge-Augmented Generation (KAG)** over governed ontologies.
 - 🌍 **GSoC 2026** contributor — **Accord Project** (Linux Foundation): an agentic workflow + LLM-based template-logic executor.
 - ⚡ *"I worked before AI, and with AI."* — I arrive with an amplification capability: orchestrated agentic workflows that cover in a day what a team handles in a week.
 
