@@ -66,20 +66,11 @@ flowchart LR
 
 **The problem.** Every bank generates massive **Close-of-Business (COB)** volumes at midnight. They must fan out — reconciled and complete — to **Data-Warehouse, HR, and Audit** systems with **guaranteed delivery before 08:00**. The window is fixed; the tolerance is zero.
 
-**The engineering challenge** ⚙️
-- **Hard SLA under load** — a fixed overnight window, no room for a single missed batch.
-- **Guaranteed, exactly-once delivery** across heterogeneous downstream systems.
-- **Operable at 03:00** — when something drifts, the on-call has to *see* it instantly.
+**Why it's hard** ⚙️ A fixed overnight window, massive volume, **zero tolerance** — in banking a missed or duplicated batch is a *compliance event*, not an inconvenience. The data has to arrive **reconciled, complete, and on time**, every single night.
 
-**How it's architected** 🏗️ *(grounded in the production stack)*
-- **Event-driven distribution over gRPC** with backpressure — a slow consumer never stalls the pipeline.
-- **Redis**-backed coordination + **idempotent** delivery — re-runs are safe; partial failures self-heal.
-- **Oracle** as system of record, with reconciliation that guarantees *completeness*, not just "sent".
-- **Grafana** SLA dashboards — the 08:00 deadline is **measured**, not hoped for.
+**What it represents.** Zero-failure reliability engineering at financial-sector scale — the discipline I carry into every AI system I build.
 
-**What it proves.** Zero-failure reliability engineering at financial-sector scale — the exact discipline (idempotency, exactly-once, observability, operability) I now carry into **AI systems**. *Most engineers optimise the happy path; I architect the failure paths.*
-
-`Java` · `Spring Boot` · `Redis` · `gRPC` · `Oracle` · `Grafana` · `Linux` &nbsp;|&nbsp; 🔒 *Proprietary production system — described at a non-disclosing altitude.*
+`Java` · `Spring Boot` · `Redis` · `gRPC` · `Oracle` · `Grafana` · `Linux` &nbsp;|&nbsp; 🔒 *Proprietary production system — described faithfully, at a non-disclosing altitude (no internal design disclosed).*
 
 ---
 
