@@ -58,6 +58,31 @@ flowchart LR
 
 ---
 
+## 🏆 Flagship — ODS · Temenos-Certified Distribution (3,000+ Banks)
+
+> The system I'm proudest of is one most people will never see — because it simply **never fails**.
+
+**Scale & status.** A **Temenos Exchange–certified** Operational Data Store, deployed across **3,000+ banks worldwide** and featured on temenos.com. Production-hardened; zero critical failures across its production life.
+
+**The problem.** Every bank generates massive **Close-of-Business (COB)** volumes at midnight. They must fan out — reconciled and complete — to **Data-Warehouse, HR, and Audit** systems with **guaranteed delivery before 08:00**. The window is fixed; the tolerance is zero.
+
+**The engineering challenge** ⚙️
+- **Hard SLA under load** — a fixed overnight window, no room for a single missed batch.
+- **Guaranteed, exactly-once delivery** across heterogeneous downstream systems.
+- **Operable at 03:00** — when something drifts, the on-call has to *see* it instantly.
+
+**How it's architected** 🏗️ *(grounded in the production stack)*
+- **Event-driven distribution over gRPC** with backpressure — a slow consumer never stalls the pipeline.
+- **Redis**-backed coordination + **idempotent** delivery — re-runs are safe; partial failures self-heal.
+- **Oracle** as system of record, with reconciliation that guarantees *completeness*, not just "sent".
+- **Grafana** SLA dashboards — the 08:00 deadline is **measured**, not hoped for.
+
+**What it proves.** Zero-failure reliability engineering at financial-sector scale — the exact discipline (idempotency, exactly-once, observability, operability) I now carry into **AI systems**. *Most engineers optimise the happy path; I architect the failure paths.*
+
+`Java` · `Spring Boot` · `Redis` · `gRPC` · `Oracle` · `Grafana` · `Linux` &nbsp;|&nbsp; 🔒 *Proprietary production system — described at a non-disclosing altitude.*
+
+---
+
 ## 🔬 Applied Data Science & ML
 
 Hands-on, end-to-end — from raw signal to served decision:
