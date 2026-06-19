@@ -115,7 +115,7 @@ Active contribution: Agentic Workflow + LLM-Based Template Logic Executor.
 Currently rebasing on the TypeScript migration — active review in progress.
 
 **[github.com/MuhamedHabib](https://github.com/MuhamedHabib)** — 800+ followers  
-**[github.com/MohamedKhattat](https://github.com/MohamedKhattat)** — 59 repos · 1.1k stars · 561 followers
+**[github.com/MohamedKhattat](https://github.com/MohamedKhattat)** — 59 repos · 561 followers
 
 ---
 
