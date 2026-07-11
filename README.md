@@ -4,7 +4,7 @@
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=27&duration=3400&pause=900&color=818CF8&center=true&vCenter=true&width=950&height=80&lines=Mohamed+Habib+Khattat;Principal+Engineer+%E2%80%94+Governed+AI;Agentic+Systems+%C2%B7+Core+Banking+(Temenos+T24);OWL2+%C2%B7+MCP+%C2%B7+RAG+%2F+KAG;Systems+that+are+not+allowed+to+fail." alt="Mohamed Habib Khattat" />
 
 <p><b>I build governed AI. Not prompts. Architectures. Systems that are not allowed to fail.</b></p>
-<p><sub><b>Principal Engineer</b> · Agentic AI · Core Banking (Temenos T24) · OWL2 · MCP · RAG/KAG · World Bank &amp; Central-Bank Programs</sub></p>
+<p><sub><b>Principal Engineer</b> · Agentic AI · Core Banking (Temenos T24) · OWL2 · MCP/CDP · RAG/KAG · Redis/CDNs · World Bank &amp; Central-Bank Programs</sub></p>
 
 <p>
   <a href="https://www.linkedin.com/in/mohamed-habib-khattat-2b206a173"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
